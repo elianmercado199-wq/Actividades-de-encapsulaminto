@@ -1,0 +1,11 @@
+class Persona:
+    def __init__(self, nombre, edad, altura):
+        self.nombre = nombre  
+        self.edad = edad      
+        self.sexo = sexo
+
+        def establecer_edad( self, edad):
+            self.edad = edad
+            
+        def mostrar_datos (self) :
+            print ( f"Persona: {self.nombre}, Edad: {self.edad} , sexo {self.sexo} " )
