@@ -1,0 +1,18 @@
+class CuentaBancaria:
+    def __init__ (self,titular,saldo,numero_cuenta):
+        self.titular=titular
+        self.saldo=saldo
+        self.numero=numero_cuenta
+        
+    def depositar_plata (self,saldo):
+        self.salfo= saldo + deposito
+        return self.saldo
+        
+    def retirar_plata (self,saldo):
+        self.saldo=saldo - retiro
+        if self.slado < 0.0 :
+            print ("no podes lil bro")
+        else:
+            return self.saldo
+        
+        
